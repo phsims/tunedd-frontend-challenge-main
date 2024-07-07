@@ -9,10 +9,10 @@ To run the server run _**node server.js**_ in the server directory.
 ## Improvements
 Due to time constraints I was not able to add the following improvements
 
-More tests
-Button component
-Grid component
-Additional details
-Additional images
-Seperate calls for both the launches list and the selected launch
+- More tests
+- Button component
+- Grid component
+ - Additional details
+ - Additional images
+- Seperate calls for both the launches list and the selected launch
 
