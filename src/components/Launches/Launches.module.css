@@ -1,0 +1,59 @@
+/* Base styles */
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+.item {
+    padding: 1rem;;
+    flex: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .item {
+        flex: 50%;
+        max-width: 50%;
+    }
+}
+
+/* Large devices (desktops, 1024px and up) */
+@media (min-width: 1024px) {
+    .item {
+        flex: 25%;
+        max-width: 25%;
+    }
+}
+
+.title{
+    font-size: 1.5rem;
+    margin: 1rem 0;
+}
+button {
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+  }
+  
+  .primary {
+    background-color: #74dd21;
+    color: #333333;
+  }
+  
+  .close {
+      height: 40px;
+      width: 40px;
+      padding:0.5rem;
+      align-self: flex-end;
+  }
+
+  .row{
+      display: flex;
+      gap: 1rem;
+      flex-direction: row;
+      text-align: left;
+  }
